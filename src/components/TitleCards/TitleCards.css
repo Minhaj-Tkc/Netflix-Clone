@@ -29,7 +29,7 @@
     color: #fff;
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     .title-cards{
         margin-top: 20px;
         margin-bottom: 0;
@@ -43,8 +43,8 @@
     .card-list p{
         font-size: 12px;
     }
-} */
-/* @media (max-width: 500px) {
+}
+@media (max-width: 500px) {
     
     .title-cards h2{
         font-size: 15px;
@@ -55,4 +55,4 @@
     .card-list p{
         font-size: 10px;
     }
-} */
+}
