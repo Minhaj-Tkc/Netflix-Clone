@@ -1,4 +1,4 @@
-// replace below firebase config with your own
+// firebase config 
 
 const firebaseConfig = {
   apiKey: "AIzaSyA1AoO54E65PrY8NcPBJZ5uDqyVgbUeMRs",
@@ -11,10 +11,10 @@ const firebaseConfig = {
 
 
 
-// craete a/c on themoviedb.org and replace access token below
+// themoviedb.org access token 
 
 
 const TMDB_Access_Key="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmOTVmOWJiZjUxNTc2ZDM3MjcyZThlY2Q4YTkyNDE0NSIsIm5iZiI6MTcyMTA2OTIzNS45MTM5MTMsInN1YiI6IjY2OTU2YzdmYWZmY2MyY2U0OGY1M2RjZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HuoMc3wP1oAAOpX4P0oTedXpU6Q6Cq16W4UCUpmsDLM";
 
 
-  export {firebaseConfig, TMDB_Access_Key};
+export {firebaseConfig, TMDB_Access_Key};

@@ -19,10 +19,10 @@ const TitleCards = ({title, category}) => {
   
 
 
-  const handleWheel = (event)=>{
-    event.preventDefault();
-    cardsRef.current.scrollLeft += event.deltaY;
-  }
+  // const handleWheel = (event)=>{
+  //   event.preventDefault();
+  //   cardsRef.current.scrollLeft += event.deltaY;
+  // }
 
   useEffect(()=>{
 
@@ -31,7 +31,7 @@ const TitleCards = ({title, category}) => {
     .then(response => setApiData(response.results))
     .catch(err => console.error(err));
 
-    cardsRef.current.addEventListener('wheel', handleWheel);
+    // cardsRef.current.addEventListener('wheel', handleWheel);
   },[])
   const dataToPass = { name: 'John Doe', age: 25 };
   return (
